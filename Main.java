@@ -23,5 +23,10 @@ public class Main {
         PaymentStrategy paypal = PaymentStrategyFactory.createPaymentStrategy("paypal", "user@example.com");
         context.setPaymentStrategy(paypal);
         context.executePayment(155.25);
+
+        // Creating a pix payment using the Factory pattern.
+        PaymentStrategy pix = PaymentStrategyFactory.createPaymentStrategy("pix", "123.456.789-00");
+        context.setPaymentStrategy(pix);
+        context.executePayment(550.25);
     }
 }
