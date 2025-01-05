@@ -29,6 +29,7 @@ public class PaymentContext {
             throw new IllegalStateException("Payment strategy is not set");
         }
         paymentStrategy.pay(amount);
+        notifyObservers(amount, paymentStrategy.getClass().getSimpleName());
     }
 
     public void addObserver(PaymentObserver observer) {

@@ -1,5 +1,5 @@
 package strategy;
 
 public interface PaymentStrategy {
-    public void pay(double amount);
+    public void pay(double amount);                                           
 }
