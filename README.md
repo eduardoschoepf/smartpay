@@ -51,3 +51,5 @@ The system notifies observers like:
    ```bash
    git clone https://github.com/eduardoschoepf/smartpay.git  
    cd smartpay  
+   javac .\Main.java  
+   java Main  
