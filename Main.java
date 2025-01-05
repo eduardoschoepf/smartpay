@@ -2,7 +2,6 @@ import context.PaymentContext;
 import factory.PaymentStrategyFactory;
 import observer.AuditLogger;
 import observer.NotificationService;
-import strategy.CreditCardPayment;
 import strategy.PaymentStrategy;
 
 public class Main {
@@ -20,5 +19,9 @@ public class Main {
         context.setPaymentStrategy(creditCard);
         context.executePayment(250.75);
 
+        // Creating a paypal payment using the Factory pattern.
+        PaymentStrategy paypal = PaymentStrategyFactory.createPaymentStrategy("paypal", "user@example.com");
+        context.setPaymentStrategy(paypal);
+        context.executePayment(155.25);
     }
 }
