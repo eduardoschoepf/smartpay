@@ -21,8 +21,8 @@ A modular and scalable payment management system using multiple **Design Pattern
    - Observers are automatically notified of payment events (e.g., logging, notifications).  
 
 4. **Factory for Payment Strategies**:  
-   - Strategies are created using a factory, making it easy to add new payment methods.  
-
+   - Strategies are created using a factory, making it easy to add new payment methods.
+  
 ---
 
 ## Design Patterns  
@@ -45,6 +45,12 @@ The system notifies observers like:
 - `NotificationService`: Sends notifications about payments.  
 
 ---
+
+## Diagram  
+
+![image](https://github.com/user-attachments/assets/ad7ec4b8-f4d6-4215-bc9a-3946b398fbaa)
+
+---  
 
 ## Installation  
  Clone this repository:  
