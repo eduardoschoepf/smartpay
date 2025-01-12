@@ -48,7 +48,7 @@ The system notifies observers like:
 
 ## Diagram  
 
-![image](https://github.com/user-attachments/assets/ad7ec4b8-f4d6-4215-bc9a-3946b398fbaa)
+![image](https://github.com/user-attachments/assets/b1b5712d-bdc1-4e94-8f9e-698a0be82c18)
 
 ---  
 
