@@ -1,6 +1,6 @@
 # Payment System with Design Patterns  
 
-A modular and scalable payment management system using multiple **Design Patterns**. This project demonstrates the power of clean architecture and reusable code through the following patterns:  
+A modular and scalable system using multiple **Design Patterns**. This project demonstrates the power of clean architecture and reusable code through the following patterns:  
 
 - **Singleton Pattern**  
 - **Strategy Pattern**  
